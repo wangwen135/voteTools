@@ -2,11 +2,11 @@ package com.wwh.virtual;
 
 import java.util.Map;
 
-public class ResultJSON {
+public class VoteResult {
 	private boolean state;
 	private String error;
 
-	private Map<String, ResultJSONEntity> data;
+	private Map<String, CandidateEntity> data;
 
 	@Override
 	public String toString() {
@@ -30,11 +30,11 @@ public class ResultJSON {
 		this.error = error;
 	}
 
-	public Map<String, ResultJSONEntity> getData() {
+	public Map<String, CandidateEntity> getData() {
 		return data;
 	}
 
-	public void setData(Map<String, ResultJSONEntity> data) {
+	public void setData(Map<String, CandidateEntity> data) {
 		this.data = data;
 	}
 
