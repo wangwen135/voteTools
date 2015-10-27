@@ -38,6 +38,11 @@
 			<version>1.2.5</version>
 		</dependency>
 
+		<dependency>
+			<groupId>junit</groupId>
+			<artifactId>junit</artifactId>
+			<version>${junit.version}</version>
+		</dependency>
 	</dependencies>
 	<build>
 		<plugins>
